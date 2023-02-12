@@ -1,0 +1,938 @@
+@media  screen  and (max-width: 767px) {
+
+
+  html {
+    /* min-width1200pxないとレイアウトが崩れてまうけん注意 
+      レスポンシブもPCも両方効かせたコーディングができなくなる
+    */
+    font-size: 122.5%; /* -> 10px */
+    
+  }
+  
+  
+ .about-container:after {
+ 	height: 450vh;
+ }
+
+/* commons */
+
+.heading {
+  font-size: 4rem !important;
+  letter-spacing: 2px;
+}
+
+.btn {
+  width: 600px;
+  height: 150px;
+}
+
+.btn p {
+  font-size: 3rem;
+  line-height: 2.3;
+}
+
+.heading-wrapper {
+  display: flex;
+  padding-top: 10%;
+  margin-left: 4%;
+}
+
+.pc{
+  display: none !important;
+}
+
+.heading.heading-black {
+  padding-top: 10%;
+  padding-left: 4%;
+  line-height: 1.5;
+ font-size: 5.5rem !important;
+}
+/* commons */
+
+/* header */
+.wrapper.site-header1__wrapper a{
+
+  font-size: 2.4rem;
+  display: none;
+
+}
+
+  .heading-wrapper.heading-wrapper-service{
+    margin-left: 4%;
+  }
+  
+  .texts-wrapper.message-wrapper {
+    margin: 0 4%;
+}
+
+.text-rightbl {
+	width: 100%;
+	max-width: 100%;
+}
+
+.sp-header-logo.sp a{
+  position: absolute;
+    top: 6%;
+	left: 4%;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+
+}
+
+.sp-header-logo.sp.nottop a{
+top:10%;
+}
+
+.sp-contact{
+  border: white solid 3px;
+}
+/*========= ナビゲーションのためのCSS ===============*/
+
+#g-nav{
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: -120%;
+  transition: all 0.6s;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #333333;
+}
+
+/*アクティブクラスがついたら位置を0に*/
+#g-nav.panelactive{
+  right: 0;
+}
+
+/*ナビゲーションの縦スクロール*/
+#g-nav.panelactive #g-nav-list{
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: #333333;
+  background-image: url(../img/noise_service_sp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+/*ナビゲーション*/
+#g-nav ul {
+  position: absolute;
+  z-index: 999;
+  top: 29%;
+  left: 78%;
+  transform: translate(-50%,-50%);
+}
+
+/*リストのレイアウト設定*/
+
+#g-nav li{
+  list-style: none;
+  text-align: right;
+}
+
+#g-nav li a{
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 40px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+/*========= ボタンのためのCSS ===============*/
+
+.scd-heading-black{
+ 
+}
+
+
+.openbtn1{
+  position: fixed; 
+ top: 5%;
+  right: 10px;
+  /* position: absolute;
+    top: 13%;
+    left: 257%; */
+    z-index: 9999;
+  cursor: pointer;
+  width: 200px;
+  height: 10px;
+}
+
+/*×に変化*/  
+.openbtn1 span{
+  display: inline-block;
+  transition: all .4s;
+  position: absolute;
+  left: 14px;
+  height: 8px;
+  border-radius: 2px;
+  background-color: white;
+  width: 70%;
+}
+
+.openbtn1.scd-heading-black span{
+  
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.openbtn1 span:nth-of-type(1) {
+top:-7px; 
+}
+
+.openbtn1 span:nth-of-type(2) {
+  top: 23px;
+  width: 60%;
+  left: 16%;
+}
+
+.openbtn1 span:nth-of-type(3) {
+  top: 54px;
+  width: 30%;
+  left: 45%;
+}
+
+.openbtn1.active span:nth-of-type(1) {
+  top: 18px;
+  left: 18px;
+  transform: translateY(6px) rotate(-45deg);
+  width: 50%;
+}
+
+.openbtn1.active span:nth-of-type(2) {
+opacity: 0;
+}
+
+.openbtn1.active span:nth-of-type(3){
+  top: 30px;
+  left: 18px;
+  transform: translateY(-6px) rotate(45deg);
+  width: 50%;
+}
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+
+/* fv */
+
+#fv{
+  width: 100%;
+  height: 2000px;
+  background-image: url(../img/fv-bg-img-sp.png);
+}
+.container.fv-container{
+    font-size: 4rem;
+    padding: 0;
+    padding: 50% 4%;
+    line-height: 2;
+
+}
+
+.flontfv_box_inner.flontfv_txt1.anim{
+
+  width: 100%;
+   
+  
+ }
+.flontfv_box_inner.flontfv_txt1.anim{
+	top: 149px;
+    -webkit-mask-size: 59%;
+	}
+	
+.flontfv_box_inner.flontfv_txt2.anim{
+  width: 100%;
+  -webkit-mask-size: 100%;
+ }
+ 
+.container.fv-container h1 {
+  font-size: 4.4rem;
+    padding: 0;
+    line-height: 2;
+
+}
+
+.flontfv_box_inner.flontfv_txt1.anim {
+
+  left: -3px;
+  
+}
+
+.flontfv_box_inner.flontfv_txt2.anim {
+  left: -3px;
+}
+
+.container.fv-container p {
+  font-size: 3.2rem;
+  padding-left: 0;
+  padding-top: 15%;
+}
+
+
+
+.scroll-line{
+  display: none;
+}
+/* fv */
+
+/* second-v */
+#second-v{
+  background-size: 76%,90% 20%,50% 50%,30%;
+    background-position: right top,right 0%,0% 76%,left bottom;
+}
+
+.heading.second-v-heading {
+  padding-left: 10%;
+}
+
+.texts-wrapper.second-p-wrapper {
+ 
+  width: 95%;
+  
+}
+
+
+.texts-wrapper p {
+    font-size: 2.3rem;
+}
+/* second-v */
+
+
+/* about */
+#about{
+  width: 100%;
+}
+
+.heading-wrapper.heading-wrapper-about{
+    display: block;
+    padding-top: 10%;
+    margin-left: 3%;
+   
+}
+
+.heading.heading-about-anim {
+  font-size: 4rem;
+  color: white;
+  padding: 6% 0%;
+  }
+
+
+  .texts-wrapper.about-wrapper p {
+      font-size: 4.4rem !important;
+      margin: 2% 0;
+      margin-left: 3%;
+      padding-left: 2% !important;
+      padding: 1% 0.5%;
+      
+ }
+.heading.heading-about {
+  padding: 2% 0%;
+}
+
+.texts-wrapper.about-wrapper {
+  padding: 5% 0;
+}
+
+.texts-wrapper.about-wrapper p {
+  font-size: 4.4rem !important;
+    margin: 2% 0;
+    margin-left: 4%;
+}
+
+.v-line-lefts {
+  border-left: 3px solid rgb(255, 255, 255);
+}
+
+.texts-wrapper.about-wrapper.about-wrapper {
+ 
+  left: 5%;
+  top: 12%;
+ 
+}
+
+
+.v-line-lefts p {
+  
+  font-size: 3.8rem;
+}
+/* about */
+
+/* service */
+
+#service{
+  background-image: none;
+  background-image: url(../img/noise_service.png), url(../img/bg-img1.png);
+  background-repeat: repeat-y,no-repeat;
+  background-size: 100%,58%;
+  background-position: center,right top;
+}
+
+.lists-imgs{
+   display: none;
+}
+
+.lists-wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+  .list .item a {
+    display: flex;
+    padding: 84px 20px 39px;
+    width: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-image: url(../img/plus-btn.png);
+    background-size: 5%;
+}
+
+
+
+.item.service-item a p {
+    font-size: 2.8rem;
+}
+
+.item.service-item a p {
+    font-size: 2.8rem;
+}
+
+.texts-wrapper.texts-center-wrapper p {
+  font-size: 3rem;
+}
+
+.btn-wrapper.btn-wrapper-service{
+  padding-bottom: 10%;
+}
+
+/*==================================================
+serviceアコーディオンのためのcss
+===================================*/
+
+.service-lists-sp{
+  display: block;
+  margin: 0 4%;
+}
+
+/*アコーディオン全体*/
+.accordion-area{
+  list-style: none;
+  width: 100%;
+  max-width: 1200px;
+  margin:10% auto;
+}
+
+.accordion-area li{
+  margin: 10px 0;
+}
+
+.accordion-area section {
+border-top: 1px solid #ccc;
+}
+
+/*アコーディオンタイトル*/
+.service-list-title {
+  position: relative;/*+マークの位置基準とするためrelative指定*/
+  cursor: pointer;
+  font-size:2.7rem !important;
+  font-weight: normal;
+  padding: 5% 3%;
+  transition: all .5s ease;
+  color: white;
+}
+
+/*アイコンの＋と×*/
+.service-list-title::before,
+.service-list-title::after{
+  position: absolute;
+  content:'';
+  width: 40px;
+    height: 3px;
+  background-color: rgb(255, 255, 255);
+  
+}
+.service-list-title::before{
+  top:48%;
+  right: 15px;
+  transform: rotate(0deg);
+  
+}
+.service-list-title::after{    
+  top:48%;
+  right: 15px;
+  transform: rotate(90deg);
+
+}
+/*　closeというクラスがついたら形状変化　*/
+.service-list-title.close::before{
+transform: rotate(45deg);
+}
+
+.service-list-title.close::after{
+transform: rotate(-45deg);
+}
+
+/*アコーディオンで現れるエリア*/
+.service-list-box {
+  display: none;/*はじめは非表示*/
+  background: #f3f3f3;
+  margin:0 3% 3% 3%;
+  padding: 5%;
+}
+
+.service-detail-title{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 4%;
+}
+
+.service-detail-stc{
+    font-size: 2.2rem;
+    padding-left: 4%;
+    padding: 4% 0;
+    line-height: 1.7;
+}
+
+.btn.btn-red {
+  filter: none;
+}
+
+.btn.btn-blue {
+  filter: none;
+}
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+/* service */
+
+/* message */
+
+#message {
+  height: 9300px;
+ 
+}
+
+.texts-wrapper.message-wrapper {
+  flex-direction: column-reverse;
+}
+
+.heading-wrapper.heading-wrapper-message{
+  padding: 10% 0;
+  margin-left: 4%;
+}
+
+.text-leftbl{
+  padding: 10% 0;
+}
+
+.text-leftbl p {
+  font-size: 2.7rem;
+  padding: 0;
+  font-size: 2.7rem;
+  line-height: 1.6;
+}
+
+.presi-name {
+  padding-right: 4%;
+}
+
+.text-rightbl img{
+  width: 100%;
+  height: 900px;
+}
+
+.position-lists {
+
+  position: absolute;
+    display: flex;
+    width: 100%;
+    top: 58%;
+    margin: 0 auto;
+    padding: 0;
+    /*width: 90%;   コンテンツが見切れて見えるようにする */
+    overflow-x: auto;  /* 横スクロールの指定 */
+    white-space: nowrap;  /* 横スクロールの指定 */
+    overflow-scrolling: touch;  /* スクロールを滑らかにする */
+    -webkit-overflow-scrolling: touch;  /* スクロールを滑らかにする */
+}
+
+.position-lists img {
+  width: 800px;
+  height: 1120px;
+  
+}
+
+.message-img1{
+  margin-left: 162%;
+}
+
+
+
+.position-introbl {
+  width: 100%;
+  height: 3700px;
+  top: 60%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 0;
+}
+
+.position-rgtbl{
+  padding: 5% 0;
+  padding-bottom: 13%;
+}
+
+.position-rgtbl p {
+  font-size: 2.5rem;
+}
+
+.position-lftbl {
+  padding-top: 40%;
+}
+
+.position-lftbl img {
+width: 900px;
+height: 1200px;
+margin: 0;
+padding: 0;
+display: block !important;
+}  
+
+.message-stc-bl {
+  padding-bottom: 6%;
+}
+/* message */
+
+/* news */
+
+
+.list.news-list {
+  margin-left: 0;
+  margin: 5% 4%;
+
+}
+
+ .item.news-item a {
+  display: block;
+  border-bottom: 6px solid #CCC;
+}
+
+.item.news-item.news-more a p {
+ 
+  font-size: 2.3rem;
+}
+
+.item.news-item.news-more a img {
+  width: 150px;
+  
+} */
+
+.news-item-a{
+  display: block;
+  border-bottom: 6px solid #CCC;
+}
+
+.news-item-a-more p{
+  font-size: 2.3rem;
+}
+
+.news-item-a-more img{
+  width: 150px;
+}
+
+
+
+
+.news-categorys{
+  display: flex;
+}
+
+.news-list .news-item .category {
+  
+  font-size: 2.3rem;
+ 
+}
+
+.news-list .news-item .title {
+  font-size: 2.3rem;
+  margin: 0;
+  padding: 3% 0;
+  white-space: normal;
+  text-align: left;
+}
+
+.list .news-item .date {
+  font-size: 2.3rem;
+ 
+}
+
+.title{
+  font-size: 1.5rem;
+}
+
+.item.news-item.news-more a {
+ 
+  display: flex;
+}
+
+.container.news-container{
+  padding: 42% 6%;
+}
+
+.news-container p{
+  line-height: 4;
+}
+/* news */
+
+/* column */
+
+#column {
+
+  padding: 11% 0;
+  margin: 0;
+  border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+
+}
+.tables.column-tables {
+
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 92%;
+  margin: auto;
+  padding-left: 0; 
+  padding-right: 0; 
+}
+
+
+.table.column-table {
+  width: 100%;
+  height: 1250px;
+  margin: 5% 0;
+}
+
+ .table.column-table img{
+  height:500px;
+ }
+
+.item.more.column-more {
+  width: 600px;
+ 
+  right: 10%;
+  bottom: -1%;
+
+}
+
+.item.more p {
+  font-size: 2.3rem;
+  padding-right: 3%;
+}
+
+.item.more img {
+  width: 160px;
+}
+
+.title.column-title {
+  font-size: 2rem;
+}
+
+.date.column-date {
+  font-size: 2rem;
+}
+
+.media-container {
+  padding: 10% 0%;
+  max-width: 100%;
+  }
+
+
+
+/* column */
+
+
+/* company */
+
+
+.company-item {
+    grid-template-columns: 250px 1fr;
+}
+
+.company-items {
+  display: grid;
+  padding: 7% 4%;
+  justify-content: start;
+}
+/* company */
+
+/* footer */
+
+.footer {
+ 
+  flex-direction: column-reverse;
+  overflow: hidden;
+}
+
+.footer.footer-copy {
+	padding: 5%;
+}
+
+.footer.footer-nav ul li {
+  
+}
+
+.footer.footer-nav ul li a {
+  font-size: 2rem;
+  padding-left: 12%;
+ 
+}
+
+.footer-contact{
+
+}
+
+.footer.footer-nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 6%;
+}
+
+.footer.footer-nav ul li {
+  width: 400px;
+}
+/* footer */
+
+/* その他 */
+
+.sp-br{
+  display: block;
+}
+
+.pc-br{
+  display: none;
+}
+
+.sp{
+  display: block;
+}
+
+
+
+
+/* その他 */
+
+/* privacy */
+
+.container.prv-container {
+  padding: 20% 5%;
+}
+
+
+.introbl1.position-introbl{
+ padding: 4%;
+}
+
+.heading-wrapper.heading-wrapper-column {
+	/*margin-left: 4%;*/
+}
+
+.texts-wrapper.second-p-wrapper p {
+    padding-left: 4%;
+}
+
+.texts-wrapper.second-p-wrapper p{
+padding-left: 4%;
+}
+
+#second-v:before {
+    width: 100%;
+    height: 50%;
+    top: 20%;
+    right: -35%;
+}
+
+#second-v:after {
+    width: 80%;
+    height: 40%;
+    bottom: 1%;
+    right: 10%;
+    z-index: -2;
+}
+
+.heading-wrapper.heading-wrapper-news{
+  margin-left: 4%;
+}
+
+.service-contact-wrappers .texts-wrapper {
+	padding-bottom: 5%;
+}
+
+.btn.btn-red {
+	margin: 2% 3%;
+}
+
+.btn.btn-blue {
+	margin: 2% 3%;
+}
+
+.scrollbar {
+    position: absolute;
+    bottom: 70%;
+    right: 50%;
+}
+
+.scrollbar span {
+	font-size: 2rem;
+}
+
+.scrollbar:before {
+	
+}
+#data-message.position-lftbl img{
+height:1260px;
+}
+.introbl1.position-introbl{
+height:auto;
+top:80%;
+position:static;
+}
+.position-container{
+position:relative;
+overflow:initial;
+height:auto;
+margin-top:600px;
+}
+#message{
+height:auto;
+}
+.position-lists{
+position:absolute;
+top:0;
+}
+.position-lftbl{
+padding-top:60%;
+}
+.position-rgtbl.position-rgtbl{
+width:900px;
+}
+.sp-header-logo img{
+width:100%;
+}
+.sp-header-logo a{
+width:500px;
+}
+}

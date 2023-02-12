@@ -1,0 +1,116 @@
+@media screen and (min-width:1300px) and ( max-width:1399px){
+
+
+  .heading.second-v-heading {
+    padding-left: 23%;
+}
+
+
+ 
+
+}
+
+@media screen and (min-width:1400px) and ( max-width:1499px){
+
+
+  .heading.second-v-heading {
+    padding-left: 21%;
+}
+
+
+
+ 
+
+}
+
+@media screen and (min-width:1500px) and ( max-width:1599px){
+
+
+  .heading.second-v-heading {
+    padding-left: 19%;
+}
+
+
+
+ 
+
+}
+
+
+@media screen and (min-width: 1700px) {
+  .heading.second-v-heading {
+    padding-left: 21%;
+  }
+  
+}
+
+@media screen and (min-width: 1800px) {
+
+.flontfv_box_inner.flontfv_txt1.anim{
+top: 390px;
+}
+  .flontfv_box_inner.flontfv_txt2.anim {
+   
+    top: 525px;
+   
+}
+
+.container.fv-container p {
+ 
+  padding-top: 7%;
+  padding-left: 5%;
+  top: 550px;
+}
+
+#fv{
+ height: 100vh;
+}
+
+.about-wrapper {
+ left: 24%;
+}
+
+
+.texts-wrapper.message-wrapper {
+	margin: 0 auto;
+	}
+
+#message {
+height: 1730px;
+}
+
+.introbl1.position-introbl {
+    padding: 8% 20%;
+}
+
+  .texts-wrapper.second-p-wrapper {
+    width: 60%;
+}
+
+.about-wrapper {
+	width: 30%;
+ }
+
+.texts-wrapper.about-wrapper p {
+	font-size: 7.5rem;
+}
+
+.texts-wrapper.second-p-wrapper p {
+	padding-left: 50%;
+}
+
+.heading {
+	font-size: 8rem;
+}
+
+.heading.heading-black {
+	font-size: 9.5rem;
+}
+
+.column-more{
+bottom:30px;
+}
+
+
+}
+

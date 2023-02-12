@@ -1,0 +1,481 @@
+/* お問い合わせフォームのCSS */
+
+.send-btn{
+    /* background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    padding: 1.5% 5%; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    line-height: 4;
+    padding: 0% 7%;
+}
+
+
+/* step1 */
+
+
+.container.contanct-container {
+    padding: 13% 5% 5%;
+    padding-right: 3%;
+}
+
+/* check-box */
+
+
+
+
+.mwform-checkbox-field label input{
+    display: none;
+    }
+	
+	input::placeholder,
+	textarea::placeholder{
+		color:#ccc;
+	}
+	
+.mwform-checkbox-field-text {
+        display: inline-block;
+        color: black; 
+        background: #CBCBCB; 
+        font-weight: bold;
+        font-size: 1.6rem;
+        border-radius: 20px;
+        text-align: center;
+        height: 35px;
+        line-height: 2;
+        width: 250px;
+        margin: 13px 0 0 1em !important;
+    }
+
+
+   
+    .mwform-checkbox-field label input:checked + .mwform-checkbox-field-text {
+		color: white;
+        background-color: black;
+        border: 1px solid #CBCBCB(0, 0, 0); 
+    }
+
+     .mwform-checkbox-field label .agree-btn:checked  + .mwform-checkbox-field-text {
+        color: #909090;
+        background: none;
+		margin: 0;
+        border: unset; 
+    }
+
+
+/* check-box */
+
+.ctct-heading-container p{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Noto Serif";
+}
+
+.ctct-heading-container h2{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.ctct-bl{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin: 3% 0;
+}
+
+.ctct-bl2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 3% 0;
+}
+
+.ctct-item{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ctct-item p{
+    font-size: 2rem;
+    font-weight: bold;
+} 
+
+.ctct-item-selectbtn{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 800px;
+    justify-items: center; */
+}
+
+.ctct-check-item{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.ctct-check-item p{
+ 
+    font-weight: bold;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 800px;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+
+.agree-btn.mwform-checkbox-field-text{
+    background-color: white;
+    color: black;
+}
+
+
+    .contact-item:checked + .ctct-label {
+        background-color: #CBCBCB;
+    }
+ 
+
+ .ctct-item input{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+	padding: 1%;
+	font-weight: 400;
+}
+
+.long-input{
+    height: 300px !important;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+	padding: 1%;
+	font-weight: 400;
+}
+
+
+.ctct-pv-bl{
+    display: flex;
+    align-items: center;
+}
+
+.ctct-pv-bl a p{
+    font-size: 1.5rem;
+    color: #909090;
+    
+    
+}
+.agree-btn{
+    display: block !important;
+}
+
+.mwform-checkbox-field label input {
+	accent-color: #333;
+}
+
+
+.ctct-pv-bl a p span{
+    /* text-decoration:underline;
+    text-decoration-color:#909090; */
+
+    text-decoration: none;
+    background-color: unset;
+    /* border-bottom: 1px solid #909090; */
+    margin: 0 !important;
+    color: #909090;
+    margin: 0%;
+    width: auto;
+    height: auto;
+    padding-left: 0%;
+    width: 260px;
+}
+
+
+
+.mwform-checkbox-field label, .mwform-radio-field label {
+    font-weight: normal;
+    display: flex;
+    margin-bottom: 0;
+    align-content: center;
+    align-items: center;
+}
+
+.guide-stc{
+    font-size: 1.1rem !important;
+    color: #909090;
+    font-weight: bold !important;
+    display: flex;
+    justify-content: flex-start;
+    margin: 3% 0;
+}
+
+.guide-stc-small{
+    font-size: 0.5rem !important;
+    color: #909090;
+    font-weight: bold !important;
+    display: flex;
+    justify-content: flex-start;
+    margin: 3% 0;
+
+}
+
+.check-box{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #909090;
+}
+
+.ctct-send-bl{
+    text-align: right;
+}
+
+.ctct-last-stc{
+    font-size: 1.8rem;
+    padding-left: 0%;
+    font-family: "Noto Serif";
+}
+
+.agree-bl{
+	text-align:center;
+}
+
+.agree-bl .mwform-checkbox-field-text {
+	background: none;
+	margin: auto !important;
+}
+
+
+/* step1 */
+
+
+/* step2 */
+.contact-st3-bl p{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 2% 0;
+    line-height: 2;
+
+}
+
+.home-btn{
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;  
+    font-size: 2rem;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.home-btn{
+    color: white;
+    font-weight: bold;
+   
+}
+
+
+.ctct-send-bl.send-bl-inline{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .pre-btn{
+  background-color: #ffffff;
+  color: black;
+  border: #000000 solid 1px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 20px;   
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-right: 10%;
+  }
+
+
+
+  .mw_wp_form_confirm .ctct-check-item p {
+   
+    display: inline-flex;
+   
+}
+  
+/* 確認画面の時だけ非表示にする */
+
+.mw_wp_form_confirm .agree-container{
+    display: none;
+}
+
+.mw_wp_form_confirm .ctct-item-selectbtn{
+
+}
+
+.mw_wp_form_confirm .guide-stc{
+    display: none;
+}
+
+/* step2 */
+
+/* step3 */
+.container.contanct-container-thanks{
+    padding: 20% 13% !important;
+  }
+
+  .stp3-last-stc{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 20%;
+    font-family: "Noto Serif";
+  }
+
+/* step3 */
+
+
+
+
+
+/* sp */
+
+@media  screen  and (max-width: 767px) {
+
+.ctct-item-selectbtn{
+
+}
+
+.ctct-bl {
+    display: block;
+    margin: 6% 1%;
+}
+
+.container.contanct-container {
+    padding: 20% 3% !important;
+}
+
+.ctct-item input {
+    background-color: : #e5e5e5;
+    width: 100%;
+    height: 120px;
+}
+
+.container.contanct-container-thanks{
+    padding: 20% 13% !important;
+    padding-bottom: 120% !important;
+  }
+
+  .ctct-check-item p {
+    font-weight: bold;
+    font-size: 2rem;
+    display: inline-flex;
+  overflow-x: scroll;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.ctct-pv-bl a p span {
+
+    padding-left: 0%;
+    width: 700px;
+}
+.ctct-item {
+    font-size: 2rem;
+    margin: 4% 0;
+    font-weight: bold;
+}
+.mwform-checkbox-field-text{
+
+    width: 700px;
+    height: 80px;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2;
+   
+}
+
+  .long-input {
+    height: 500px !important;
+}
+
+.guide-stc {
+    font-size: 2.1rem !important;
+}
+
+.check-box {
+    width: 150px;
+    height: 150px;
+}
+
+.ctct-pv-bl a p {
+    font-size: 2rem;
+  
+}
+
+.ctct-send-bl {
+    text-align: center;
+   margin-top: 10%;
+}
+
+.send-btn {
+    height: 150px;
+    width: 100%;
+    font-size: 3rem;
+    line-height: 2.7;
+}
+
+.agree-btn {
+    width: 80px;
+    height: 80px;
+}
+
+.ctct-last-stc {
+    font-size: 1.8rem;
+    padding-top: 15%;
+    
+    font-family: "Noto Serif";
+}
+/* step2 */
+
+.ctct-send-bl.send-bl-inline {
+    flex-direction: column-reverse;
+}
+
+.pre-btn {
+    width: 100%;
+    height: 100px;
+    font-size: 3.3rem;
+	margin: 0;
+	margin-top: 5%;
+}
+
+.mw_wp_form_confirm .ctct-item-selectbtn {
+   
+    padding-left: 0%;
+    }
+
+/* step3 */
+
+.hbn-block{
+    margin-top: 16%;
+}
+
+.home-btn {
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 80px;
+	padding: 2em;
+}
+
+}

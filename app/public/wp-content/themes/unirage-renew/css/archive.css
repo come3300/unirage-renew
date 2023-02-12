@@ -1,0 +1,474 @@
+/* pc */
+
+.singleTtl {
+	font-size: 3.5rem;
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+.archive_ttl {
+	font-size: 5rem;
+    font-weight: bold;
+    font-family: "Noto Serif";
+}
+
+.column-category {
+font-size: 1.5rem;
+font-weight: bold;
+background: #387EFD;
+color: #fff;
+padding: 1.5% 6%;
+border-radius: 100px;
+display: block;
+}
+
+.archive_ttl span{
+	display: block;
+	font-size: 0.6em;
+}
+
+.container.archive-container{
+    padding: 10% 5%;
+}
+
+.archive-heading-bl p{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: "Noto Serif";
+}
+
+.archive_category_area {
+	margin-top: 10%;
+	padding-bottom: 2%;
+	border-bottom: #000 1px solid;
+	display: flex;
+    gap: 2em;
+}
+
+
+.archive_category_area li {
+	display: inline-block;
+}
+
+.archive_category_area a{
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 2%;
+	transition: all 0.3s ease;
+	display: contents;
+}
+
+.archive_category_area a:hover {
+	opacity: 0.7;
+}
+
+.archive-nav-bl {
+    padding: 5% 0;
+    padding-bottom: 3%;
+}
+
+.archive-bl-imgs{
+    width: 100%;
+    height: auto;
+	border-radius: 10%;
+	overflow: hidden;
+}
+
+.archive-bl-img{
+    display: block;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    width: 350px
+}
+
+.archive-bl-stc{
+    padding-top: 10%;
+	padding-left: 1em;
+}
+
+.archive-nav-bl nav ul{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3% 0;
+}
+
+.archive-nav-bl nav ul a{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 3%;
+    padding-left: 0;
+}
+
+.under-black-line{
+    border-top: 3px solid #000000;
+    margin-right: 6%;
+
+}
+
+.archive-heading-bl{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.archive-bl-contents{
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.archive-bl{
+    width: 350px;
+    margin: 1% 2%;
+	transition: all 0.3s ease;
+}
+
+.archive-bl:hover{
+	transform: scale(0.95);
+}
+
+
+.archive-bl p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.archive-category-bl{
+    display: flex;
+   
+}
+
+.archive-category-bl p{
+    font-size: 1rem;
+}
+
+#toc_container {
+    width: 100%; /* ボックスの幅 */
+    background-color: #f0f8ff; /* ★ ボックス背景色 */
+    border: 3px solid #dcdcdc; /* ボックスの外枠 */
+    border-radius: 3px; /* 四隅の角を丸める */
+    font-size: 16px; /* 目次の文字サイズ */
+    box-sizing: border-box; /* はみ出しを自動調節 */
+    padding: 3% !important; /* ボックスと項目間の余白 上1em 左右2em 下0em */
+    margin: 10px auto; /* 中央揃えに指定 上下には10pxづつ余白 */
+    }
+    
+    #toc_container .toc_title {
+    text-align: center; /* タイトルを中央揃え */
+    font-size: 20px; /* タイトルの文字サイズ */
+    color: #2f4f4f; /* ★ タイトル文字色 */
+    }
+    
+    #toc_container ul {
+    list-style: none; /* 目次のスタイル noneにすることで余計な・を削除 */
+    margin-bottom: 0em; /* 項目間の高さ */
+    }
+    
+    #toc_container ul li {
+    margin: 0em; /* 項目の幅 */
+    }
+    
+    #toc_container .toc_list > li > a {
+    font-weight: bold; /* 見出しh2を太字に */
+    border-bottom: 0.5px solid #ccc; /* 見出しh2の下線サイズ・色 */
+    font-size: 2.2rem; /* 見出しh2の文字サイズ */
+    }
+    
+    #toc_container ul a {
+    display: block; /* 項目をブロック形式で均等に */
+    text-decoration: none; /* 項目文字の下線なし */
+    color: black; /* ★ 項目の文字色 */
+    border-bottom: 1px soid black; /* 見出しh3の下線サイズ・色 */
+    }
+    #toc_container ul li a:hover {
+        text-decoration: none;
+      }
+    
+    #toc_container ul ul {
+    padding: 1em 0 1em 1em; /* 見出しh3の余白 */
+    }
+    
+    #toc_container li {
+    padding-bottom: 0.2em; /* 項目下の余白 */
+    }
+
+/* colmnの各投稿ページ */
+
+.media-container{
+	line-height: 1.6;
+	max-width: 850px;
+	width: 100%;
+	font-size: calc(2 * 1rem);
+}
+
+.media-container h2{
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+.media-container h3{
+	margin-top: 1em;
+	margin-bottom: 0.3em;
+	font-weight: 600;
+}
+
+.media-container h4{
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	font-weight: 600;
+}
+
+.media-container .eyeCatch {
+	width: 100%;
+}
+
+.media-container .eyeCatch img {
+	width: 100%;
+	height: auto;
+}
+
+@media  screen  and (max-width: 767px) {
+
+/* 一覧ページ */
+
+.container.archive-container{
+    padding: 23% 5%;
+}
+
+.archive-bl-contents {
+    display: flex;
+    width: 100%;
+    flex-direction: column-reverse;
+    align-content: center;
+    align-items: center;
+}
+
+.archive-bl-sp {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.archive-bl-sp a{
+    width: 500px;
+    border: #000000 solid 3px;
+    margin: 3%;
+    text-align: center;
+}
+
+.archive-bl-sp a p{
+    font-size: 3.5rem;
+    padding: 3% 5%;
+    font-weight: bold;
+    }
+
+.archive-bl {
+    display: grid;
+    width: 1000px;
+    margin: 3%;
+    align-items: center;
+    overflow: hidden;
+    justify-items: center;
+    justify-content: center;
+}
+
+.archive-bl-stc {
+    padding-top: 4%;
+    overflow: hidden;
+    display: grid;
+    margin: auto 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.archive-bl-imgs{
+    width: 1200px;
+    height:700px;
+}
+
+.archive-bl-img{
+    display: block;
+    height: 700px;
+    object-fit: contain;
+    width: 1200px;
+}
+
+
+}
+
+.fbf {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.pd-single{
+	padding: 250px 0;
+}
+
+.sidebar {
+	width:250px;
+}
+
+.sidebar h4 {
+	font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.sidebar img {
+	max-width: 100%;
+	height: auto;
+}
+
+.sidePost {
+	margin-top: 10%;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.sidePostImgArea{
+	border-radius: 10%;
+	overflow: hidden;
+	transition: all 0.3s ease;
+}
+
+.sidePost:hover  .sidePostImgArea{
+	transform: scale(0.95);
+}
+
+.sidePostTxtArea {
+	margin-top: 1em;
+}
+
+.sidePostTxtArea p {
+	font-size: 1.5rem;
+    font-weight: 500;
+	padding-left: 1em;
+}
+
+@media screen and (max-width: 767px){
+.media-container {
+    max-width: 100%;
+}
+
+.media-container {
+font-size: calc(2 * 1.2rem);
+}
+
+.sidebar{
+	width: 100%;
+}
+
+.sidePostTxtArea p {
+	font-size: 2.2rem;
+}
+
+.news-container {
+    margin: auto;
+    width: 100%;
+	max-width: 100%;
+}
+
+.singleTtl {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.news-container p{
+	line-height: 2;
+	font-size: 50px !important;
+}
+
+.archive_category_area a{
+	font-size: 3rem;
+}
+
+.media-container h2 {
+	font-size: 3rem;
+}
+
+.archive_ttl {
+	font-size: 5rem;
+}
+
+.column-category {
+font-size: 2rem;
+	padding: 1% 6%;
+}
+
+
+}
+
+
+.newsDate {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.this_cat{
+position:relative;
+}
+
+.this_cat::after{
+content:'';
+bottom:-0.5rem;
+left:0;
+right:0;
+height:2px;
+background-color:#333333;
+position:absolute;
+}
+
+.table.column-table{
+height:auto;
+}
+
+.pagenation{
+width:fit-content;
+margin:0 auto;
+}
+
+.page-numbers{
+font-size:16px;
+}
+
+@media  screen  and (max-width: 767px) {
+.page-numbers{
+font-size:50px;
+}
+}
+
+.page-numbers:nth-child(n+2){
+margin-left:2.5rem;
+}
+
+.tables.column-tables{
+	padding-bottom:5%;
+}
+
+.page-numbers:not(.next):not(.prev){
+	width: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 50%;
+	border: 1px solid #333333;
+    background-color: transparent;
+    color: #333333;
+}
+
+@media  screen  and (max-width: 767px) {
+.page-numbers:not(.next):not(.prev){
+width:90px;
+height:90px;
+}
+}
+
+.page-numbers:not(.next):not(.prev).current{
+	background-color: #333333;
+    color: white;
+}
